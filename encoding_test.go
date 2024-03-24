@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/debabky/go-merkletree/v2/sha3"
 	"github.com/stretchr/testify/require"
-	"github.com/wealdtech/go-merkletree/v2/sha3"
 )
 
 func TestEncoding(t *testing.T) {

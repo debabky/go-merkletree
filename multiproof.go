@@ -17,8 +17,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
+	"github.com/debabky/go-merkletree/v2/blake2b"
 	"github.com/pkg/errors"
-	"github.com/wealdtech/go-merkletree/v2/blake2b"
 )
 
 // MultiProof is a single structure containing multiple proofs of a Merkle tree.

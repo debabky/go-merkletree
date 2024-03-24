@@ -1,4 +1,4 @@
-module github.com/wealdtech/go-merkletree/v2
+module github.com/debabky/go-merkletree/v2
 
 go 1.20
 

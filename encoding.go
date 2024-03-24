@@ -3,11 +3,11 @@ package merkletree
 import (
 	"encoding/json"
 
+	"github.com/debabky/go-merkletree/v2/blake2b"
+	"github.com/debabky/go-merkletree/v2/keccak256"
+	"github.com/debabky/go-merkletree/v2/poseidon"
+	"github.com/debabky/go-merkletree/v2/sha3"
 	"github.com/pkg/errors"
-	"github.com/wealdtech/go-merkletree/v2/blake2b"
-	"github.com/wealdtech/go-merkletree/v2/keccak256"
-	"github.com/wealdtech/go-merkletree/v2/poseidon"
-	"github.com/wealdtech/go-merkletree/v2/sha3"
 )
 
 // MarshalJSON implements json.Marshaler.
